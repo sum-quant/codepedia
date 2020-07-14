@@ -27,7 +27,7 @@ static int NumEmails=1;
 
 struct memobj {
   char *memory;
-  size_t size, allocated;
+  size_t size, 
 
 };
 
@@ -80,7 +80,7 @@ lock_guard<std::mutex> lck (mtx);
  catch(std::logic_error &e) {}  
 
 
-//free(body.memory);
+
  curl_easy_cleanup(curl);
 }
 
