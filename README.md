@@ -1,6 +1,6 @@
 # codepedia
-Thread Safe Programe to fetch recent 5000 Emails 
-Upload the mails to file
+Thread Safe Programe to fetch recent 5000 Emails  from all folders
+Upload the mails to file for each folder label 
 Compile:
 g++ -std=c++11 imap.cpp -lcurl -lpthread
 
