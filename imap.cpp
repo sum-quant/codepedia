@@ -40,7 +40,7 @@ size_t write_callback(char *ptr, size_t size, size_t nmemb, FILE *stream)
 }
 static int ShowGmailFolders(const char *username, const char *password, const char * label_type, int N, FILE *fp)
 { 
-lock_guard<std::mutex> lck (mtx);
+
  
    auto labels=std::string(label_type);
    std::string url_host ="imaps://imap.gmail.com:993/" + labels + ";UID=";
