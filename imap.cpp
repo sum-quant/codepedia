@@ -78,7 +78,16 @@ static int ShowGmailFolders(const char *username, const char *password, const ch
  }
 }
  catch(std::logic_error &e) {}  
-
+//try
+//{
+  //do {
+    //curl_multi_perform(cm, &still_alive);
+ 
+  //  while((msg = curl_multi_info_read(cm, &msgs_left))) {
+    //  if(msg->msg == CURLMSG_DONE) {
+      //  char *url;
+        //CURL *e = msg->easy_handle;
+        //url_easy_getinfo(msg->ea
 
 
  curl_easy_cleanup(curl);
