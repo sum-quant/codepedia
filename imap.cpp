@@ -19,7 +19,7 @@ using namespace std;
 #define FALSE 0
 #undef TRUE
 #define TRUE 1
-
+#define MLimit 5000
 #define MAX_GMAIL_USER_LEN 256
 #define MAX_GMAIL_PASS_LEN 256
 mutex mtx;
@@ -126,7 +126,7 @@ FILE *fp3 = fopen("Receipts.txt","a");
 FILE *fp4 = fopen("Sent.txt","a");
 FILE *fp5 = fopen("Trash.txt","a");
 auto start = chrono::high_resolution_clock::now(); 
-while (NumEmails<5000)
+while (NumEmails<MLimit)
 { 
   
   thread t1(ShowGmailFolders,argv[1], argv[2], "INBOX",std::ref(Num), ref(fp1));
