@@ -27,7 +27,7 @@ static int NumEmails=1;
 
 struct memobj {
   char *memory;
-  size_t size, 
+  size_t size;
 
 };
 
