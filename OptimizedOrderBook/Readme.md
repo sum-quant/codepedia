@@ -15,10 +15,11 @@ Among other things, there is no hashtable or trees used, only <vector>s and C ar
   Each Order ID has a level_ID that map to price that is provided with level value from the memory pool( starting from 0) , thus Orders are close to each other when added and indexed.
   Insertion is always at the end of level index. provide better TLB and cache.
   
-  Deleted level index and cached and pooled for later levels.
+  Deleted level index and cached and pooled further.
   
   Sorted_levels are of buy and sell vector in the order of price/time.
   
   Deletion from the sorted level vector are O(n) operation.
   
+  Addition and indexing are O(1) operation with better TLBS and cache efficinecy.
   
