@@ -23,10 +23,12 @@ Best Bid or Best Offer (BBO) changed.
 
 Design :
 
-Unordered _map datastructure to maintain the oder_ID based on hash details , bucket consits of map of orders type data that isused to maintain price and quatnitty based on the priority of price-time
+Unordered _map datastructure to maintain the order_ID based on hash details , bucket consits of map of orders to maintain price and quantity based on the priority of price-time.
 .
-Add -O(1)+ log(n) in Map
+Add -O(1)+ log(n) in Map.
+
 Delete/Reject -0(1)+ log(n) erase in Map.
+
 Modify -o(1)
 
 Input is order.csv file 
