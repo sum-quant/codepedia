@@ -1,4 +1,4 @@
-Liquibook will notify the application when significant events occur to allow the application to actually execute the trades identified by Liquibook, and to allow the application to publish market data for use by traders.
+Liquidbook will notify the application when significant events occur to allow the application to actually execute the trades identified by Liquibook, and to allow the application to publish market data for use by traders.
 
 The notifications generated include:
 
